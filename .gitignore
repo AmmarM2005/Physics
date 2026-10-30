@@ -25,3 +25,8 @@ venv/
 # temporary files
 *.tmp
 *.bak
+
+Books/
+*.epub
+*.djvu
+*.mobi
