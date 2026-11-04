@@ -1,78 +1,61 @@
-Let's study Modern Physics for JEE, starting from first principles.
+---
+tags: [jee, physics, modern-physics]
+topic: Photoelectric Effect
+---
 
-Modern Physics is one of the more formula-oriented and scoring sections of JEE Physics. But understanding the underlying concepts makes the formulas much easier to remember.
+# Modern Physics for JEE
 
-We'll study one concept at a time.
+## Lesson 1: Photoelectric Effect
 
-### Lesson 1: Photoelectric Effect
+## 1. The fundamental question
 
-![Doodlingo - Learn AI, Computer Science, Physics & Startups Through Doodles](https://images.openai.com/static-rsc-4/t3BW1jzRpj5ZB_7qDv-gCihLLObp1N8C8wPizgonQRh6VDIc3y55l0wOwyQ1g7lo-2vJBGqawksluLsuuP_cH3ptgroTFV6RihoOKCU3rfeipQAftpiHtAxOl6Yf6kzfBqUrGDIIZGuPB9klRt-BNaFbwSYmfMrRBvtumJ9s7Rkz8MeF25CJy5lE8GtbcE_Q?purpose=fullsize)
+Shine light on a metal surface.
 
-### 1\. The fundamental question
+Classical physics predicted:
 
-Imagine shining light on a metal surface.
+- Increasing light intensity should increase the energy of emitted electrons.
+- Any frequency of light should eventually eject electrons if enough energy is supplied.
 
-Classical physics suggested that:
+Experiments showed something completely different: electrons are emitted **only when the frequency of incident light exceeds a certain minimum frequency**. This phenomenon is called the **photoelectric effect**.
 
-* Increasing light intensity should increase the energy of emitted electrons.
+## 2. Einstein's explanation
 
-* Any frequency of light should eventually eject electrons if enough energy is supplied.
-
-But experiments showed something completely different.
-
-Electrons are emitted only when the frequency of incident light exceeds a certain minimum frequency.
-
-This phenomenon is called the photoelectric effect.
-
-### 2\. Einstein's explanation
-
-Einstein proposed that light consists of discrete packets of energy called photons.
+Light consists of discrete packets of energy called **photons**.
 
 Energy of one photon:
 
-E=h\\nu
+$$E = h\nu$$
 
 Where:
 
-* = Planck's constant
+- $h$ = Planck's constant, $h = 6.626 \times 10^{-34}\ \text{J s}$
+- $\nu$ = frequency of light
 
-* = frequency of light
+A photon is a packet carrying a fixed amount of energy. When a photon hits an electron in a metal, its energy can be used to eject that electron.
 
-h=6.626\\times10^{-34}\\ J\\,s
+## 3. Work function
 
-Think of a photon as a packet carrying a fixed amount of energy.
-
-When a photon hits an electron in a metal, its energy can be used to eject that electron.
-
-### 3\. Work function
-
-An electron needs a minimum amount of energy to escape the metal surface.
-
-This minimum energy is called the work function ().
+An electron needs a minimum energy to escape the metal surface. This minimum energy is the **work function** ($\phi$).
 
 Einstein's photoelectric equation:
 
-\\boxed{h\\nu=\\phi+K_{\\max}}
+$$\boxed{h\nu = \phi + K_{\max}}$$
 
-Or:
+or
 
-\\boxed{K_{\\max}=h\\nu-\\phi}
+$$\boxed{K_{\max} = h\nu - \phi}$$
 
-The energy conservation principle is the entire foundation of this equation.
+Energy conservation is the entire foundation of this equation.
 
-### 4\. Threshold frequency
+## 4. Threshold frequency
 
-At the minimum frequency required for electron emission, the electron just escapes.
+At the minimum frequency required for emission, the electron just escapes, so its kinetic energy is zero:
 
-Its kinetic energy is zero.
+$$h\nu_0 = \phi \quad\Rightarrow\quad \boxed{\nu_0 = \frac{\phi}{h}}$$
 
-Therefore:
+If the incident frequency is below $\nu_0$, no emission occurs, **regardless of intensity**.
 
-h\\nu_0=\\phi\\boxed{\\nu_0=\\frac{\\phi}{h}}
-
-If the incident frequency is below this threshold, no photoelectric emission occurs, regardless of intensity.
-
-### 5\. Important JEE observations
+## 5. Important JEE observations
 
 | Parameter increased       | Effect                           |
 | ------------------------- | -------------------------------- |
@@ -83,74 +66,38 @@ If the incident frequency is below this threshold, no photoelectric emission occ
 
 Also:
 
-K_{\\max}=eV_s
+$$K_{\max} = eV_s$$
 
 Therefore:
 
-\\boxed{eV_s=h\\nu-\\phi}
+$$\boxed{eV_s = h\nu - \phi}$$
 
-Here is the stopping potential.
+Here $V_s$ is the **stopping potential**.
 
-### 6\. Test your understanding
+## 6. Test your understanding
 
-Concept check
+> [!question]- Q1. If light intensity is doubled while frequency remains constant, what happens to maximum kinetic energy?
+> Options: Doubles / Becomes half / Remains unchanged / Becomes zero
+>
+> **Answer: Remains unchanged.** $K_{\max} = h\nu - \phi$ depends only on frequency, not intensity.
 
-0/3 answered
+> [!question]- Q2. If incident frequency is below threshold frequency, what happens?
+> Options: Electrons emit slowly / Increasing intensity causes emission / No photoelectric emission / Kinetic energy increases
+>
+> **Answer: No photoelectric emission.** Each photon has $h\nu < \phi$, so no electron escapes.
 
-Q1. If light intensity is doubled while frequency remains constant, what happens to maximum kinetic energy?
+> [!question]- Q3. If frequency increases, what happens to stopping potential?
+> Options: Increases / Decreases / Remains constant / Becomes zero
+>
+> **Answer: Increases.** $V_s = \dfrac{h\nu - \phi}{e}$ grows linearly with $\nu$.
 
-Doubles
+## Study sequence
 
-Becomes half
-
-Remains unchanged
-
-Becomes zero
-
-Q2. If incident frequency is below threshold frequency, what happens?
-
-Electrons emit slowly
-
-Increasing intensity causes emission
-
-No photoelectric emission
-
-Kinetic energy increases
-
-Q3. If frequency increases, what happens to stopping potential?
-
-Increases
-
-Decreases
-
-Remains constant
-
-Becomes zero
-
-Submit answers
-
-### What should we study next?
-
-My suggested sequence for JEE Modern Physics:
-
-* Photoelectric Effect
-
-* Matter Waves and de Broglie Wavelength
-
-* Bohr's Atomic Model
-
-* Hydrogen Spectrum
-
-* Nuclear Physics and Radioactivity
-
-* Mass Defect and Binding Energy
-
-* Nuclear Fission and Fusion
-
-* X-rays
-
-Q1. Do you want JEE Main level or JEE Advanced level?
-
-Q2. Should we solve numerical problems immediately after each concept?
-
-Q3. Do you prefer deriving formulas from first principles rather than memorising them?
+- [x] Photoelectric Effect
+- [ ] Matter Waves and de Broglie Wavelength
+- [ ] Bohr's Atomic Model
+- [ ] Hydrogen Spectrum
+- [ ] Nuclear Physics and Radioactivity
+- [ ] Mass Defect and Binding Energy
+- [ ] Nuclear Fission and Fusion
+- [ ] X-rays
